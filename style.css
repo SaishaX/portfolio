@@ -59,6 +59,7 @@ p {
     border-radius: 4px;
     background-color: var(--accent-color);
     color: white;
+    font-family: var(--secondary-font);
     font-size: 18px;
     text-decoration: none; 
 }
