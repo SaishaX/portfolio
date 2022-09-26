@@ -150,10 +150,21 @@ h4 {
   }
 }
 @media (max-width: 912px) {
+  h1 {
+    font-size: 58px;
+    line-height: 60px;
+    margin-bottom: 20px;
+  }
   .hero {
-    height: 760px;
+    height: auto;
+  }
+  .caption {
+    margin-top: 20px;
   }
   .title-section{
     margin: 30px auto;
+}
+.col-lg-6 p {
+  margin: 0 10px;
 }
 }
