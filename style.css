@@ -31,6 +31,13 @@ h4 {
   font-size: 64px;
   line-height: 85px;
 }
+h5 {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  margin: 50px 0 10px 120px;
+}
 .hero {
   width: 1440px;
   height: 860px;
@@ -102,6 +109,23 @@ h4 {
   border-radius: 4px;
   text-decoration: none;
 }
+.inquiry {
+  width: 1160px;
+  height: 200px;
+  background-color: #f9f7fe;
+  border-radius: 20px;
+  margin: 60px auto;
+}
+.treatment-section {
+  font-size: 18px;
+  color: var(--font-color);
+  opacity: 0.7;
+  margin-left: 120px;
+}
+.button-contact {
+  margin-top: 70px;
+  margin-left: 50%;
+}
 
 @media (max-width: 1200px) {
   h1 {
@@ -110,7 +134,7 @@ h4 {
   h4 {
     padding-top: 0;
     font-size: 44px;
-    text-align: center;
+    margin: 20px;
   }
   .hero {
     width: auto;
@@ -123,12 +147,42 @@ h4 {
   }
   .col-lg-6 p {
     width: auto;
-    text-align: center;
-    margin-top: 10px;
+    margin: 20px;
   }
   .col-lg-6 a {
     margin: 0 auto;
   }
+  .inquiry {
+    width: auto;
+  }
+}
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 58px;
+    line-height: 60px;
+    margin-bottom: 20px;
+  }
+  h5 {
+    font-size: 28px;
+    margin-left: 20px;
+  }
+  .hero {
+    height: auto;
+  }
+  .caption {
+    margin-top: 20px;
+    width: auto;
+  }
+  .title-section{
+    margin: 30px auto;
+}
+.col-lg-6 p {
+  margin: 0 10px;
+}
+.treatment-section {
+  margin-left: 20px;
+  font-size: 14px;
+}
 }
 @media (max-width: 540px) {
   h1 {
@@ -148,23 +202,4 @@ h4 {
   .title-section {
     margin: 20px auto;
   }
-}
-@media (max-width: 912px) {
-  h1 {
-    font-size: 58px;
-    line-height: 60px;
-    margin-bottom: 20px;
-  }
-  .hero {
-    height: auto;
-  }
-  .caption {
-    margin-top: 20px;
-  }
-  .title-section{
-    margin: 30px auto;
-}
-.col-lg-6 p {
-  margin: 0 10px;
-}
 }
