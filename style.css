@@ -4,8 +4,10 @@
   --accent-color: #6c63ff;
   --font-color: #272142;
 }
-h2 {
+body {
   font-family: var(--secondary-font);
+}
+h2 {
   font-weight: 700;
   font-size: 36px;
   color: var(--font-color);
@@ -18,17 +20,22 @@ h1 {
   line-height: 128px;
 }
 h3 {
-  font-family: var(--secondary-font);
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
+}
+h4 {
+  padding-top: 95px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
 }
 .hero {
   width: 1440px;
   height: 860px;
   background-color: #f9f7fe;
   margin: 0 auto;
-  font-family: var(--secondary-font);
 }
 .navbar {
   margin: 0 140px 0 165px;
@@ -62,3 +69,37 @@ h3 {
 .button:hover {
   color: white;
 }
+.title-section {
+  margin: 130px auto 80px;
+  text-align: center;
+  font-size: 18px;
+}
+.work-section {
+  width: 1160px;
+  margin: 0 auto;
+}
+.images {
+  width: 560px;
+  border: 1px solid gainsboro;
+}
+.col-6 {
+  margin-bottom: 70px;
+}
+.col-6 p {
+  width: 514px;
+  margin-top: 55px;
+  line-height: 30px;
+}
+.col-6 a {
+display: block;
+width: 200px;
+height: 60px;
+margin-top: 50px;
+text-align: center;
+padding: 18px;
+color: var(--accent-color);
+border: 1px solid var(--accent-color);
+border-radius: 4px;
+text-decoration: none;
+}
+
