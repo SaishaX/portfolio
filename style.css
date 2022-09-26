@@ -82,24 +82,60 @@ h4 {
   width: 560px;
   border: 1px solid gainsboro;
 }
-.col-6 {
+.col-lg-6 {
   margin-bottom: 70px;
 }
-.col-6 p {
+.col-lg-6 p {
   width: 514px;
   margin-top: 55px;
   line-height: 30px;
 }
-.col-6 a {
-display: block;
-width: 200px;
-height: 60px;
-margin-top: 50px;
-text-align: center;
-padding: 18px;
-color: var(--accent-color);
-border: 1px solid var(--accent-color);
-border-radius: 4px;
-text-decoration: none;
+.col-lg-6 a {
+  display: block;
+  width: 200px;
+  height: 60px;
+  margin-top: 50px;
+  text-align: center;
+  padding: 18px;
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  text-decoration: none;
 }
 
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 68px;
+  }
+  h4 {
+    padding-top: 0;
+    font-size: 44px;
+    text-align: center;
+  }
+  .hero {
+    width: auto;
+  }
+  .title-section {
+    text-align: center;
+  }
+  .work-section {
+    width: auto;
+  }
+  .col-lg-6 p {
+    width: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .col-lg-6 a {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 375px) {
+  h1 {
+    font-size: 48px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+
+
+}
