@@ -202,4 +202,16 @@ h5 {
   .title-section {
     margin: 20px auto;
   }
+  h5 {
+    margin-top: 0;
+    text-align: center;
+  }
+  .treatment-section {
+  font-size: 16px;
+  margin-left: 20px;
+  text-align: center;
+}
+  .button-contact {
+  margin: 0 auto;
+}
 }
