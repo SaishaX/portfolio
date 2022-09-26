@@ -130,12 +130,30 @@ h4 {
     margin: 0 auto;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 540px) {
   h1 {
     font-size: 48px;
     line-height: 50px;
     margin-bottom: 20px;
   }
-
-
+  .hero {
+    height: auto;
+  }
+  .caption {
+    margin-top: 20px;
+  }
+  #logotype {
+    display: none;
+  }
+  .title-section {
+    margin: 20px auto;
+  }
+}
+@media (max-width: 912px) {
+  .hero {
+    height: 760px;
+  }
+  .title-section{
+    margin: 30px auto;
+}
 }
