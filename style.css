@@ -235,6 +235,13 @@ h5 {
     margin: 0 auto;
     margin-top: 40px;
   }
+  .works h4 {
+    width: auto;
+  }
+  .works img {
+    display: block;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 1000px) {
   h1 {
