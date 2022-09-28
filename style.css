@@ -148,7 +148,7 @@ h5 {
   font-size: 40px;
   color: var(--accent-color);
 }
-.about-navbar {
+.placement-navbar {
   width: 1440px;
   margin: 0 auto;
 }
@@ -200,7 +200,7 @@ h5 {
   .inquiry {
     width: auto;
   }
-  .about-navbar {
+  .placement-navbar {
     width: auto;
   }
   .about-section {
