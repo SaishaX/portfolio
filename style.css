@@ -36,7 +36,7 @@ h5 {
   font-weight: 700;
   font-size: 48px;
   line-height: 64px;
-  margin: 50px 0 10px 120px;
+  margin: 40px 0 10px 120px;
 }
 .hero {
   width: 1440px;
@@ -179,6 +179,7 @@ h5 {
     padding-top: 0;
     font-size: 44px;
     margin: 20px;
+    line-height: 60px;
   }
   .hero {
     width: auto;
