@@ -264,6 +264,9 @@ h5 {
   .hero {
     height: auto;
   }
+  .collapse {
+    display: block;
+  }
   .caption {
     margin-top: 20px;
     width: auto;
