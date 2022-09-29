@@ -150,13 +150,6 @@ h5 {
   display: flex;
   justify-content: center;
 }
-.contact-links {
-  /* margin: 40px 33px; */
-  /* width: 40px;
-  height: 40px; */
-  /* background-color: #f9f7fe;
-  border-radius: 100%; */
-}
 .scomed .fa-brands {
   margin: 40px 33px;
   padding: 10px;
@@ -171,6 +164,7 @@ background-color: #f9f7fe;
 .scomed .fa-brands:hover {
   background-color: var(--accent-color);
   color: white;
+  transition: all 150ms ease-in-out;
 }
 
 .placement-navbar {
@@ -204,6 +198,7 @@ background-color: #f9f7fe;
   margin-bottom: 100px;
 }
 .works img:hover {
+  transition: all 150ms ease-in-out;
   margin-top: -10px;
   margin-bottom: 10px;
   transition-delay: 10ms;
