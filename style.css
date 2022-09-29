@@ -47,8 +47,12 @@ h5 {
 .navbar {
   margin: 0 auto;
 }
+.collapse {
+  display: flex;
+  justify-content: end;
+}
 .nav-link {
-  margin-right: 30px;
+  margin-right: 60px;
   font-size: 16px;
   color: var(--font-color);
   opacity: 70%;
