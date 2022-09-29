@@ -151,21 +151,28 @@ h5 {
   justify-content: center;
 }
 .contact-links {
-  margin: 40px 33px;
-  width: 40px;
-  height: 40px;
-  background-color: #f9f7fe;
-  border-radius: 100%;
+  /* margin: 40px 33px; */
+  /* width: 40px;
+  height: 40px; */
+  /* background-color: #f9f7fe;
+  border-radius: 100%; */
 }
 .scomed .fa-brands {
+  margin: 40px 33px;
+  padding: 10px;
+width: 40px;
+height: 40px;
+background-color: #f9f7fe;
+  border-radius: 100%;
   font-size: 20px;
   text-align: center;
-  vertical-align: middle;
   color: var(--accent-color);
 }
 .scomed .fa-brands:hover {
-  color: var(--font-color);
+  background-color: var(--accent-color);
+  color: white;
 }
+
 .placement-navbar {
   width: 1440px;
   margin: 0 auto;
